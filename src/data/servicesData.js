@@ -12,11 +12,11 @@ export const servicesData = [
     //     title: 'Marketing',
     //     icon: <BiShoppingBag/>
     // },
-    {
-        id: 2,
-        title: 'Content Writing',
-        icon: <BiPencil /> 
-    },
+    // {
+    //     id: 2,
+    //     title: 'Content Writing',
+    //     icon: <BiPencil /> 
+    // },
     // {
     //     id: 3,
     //     title: 'Email Marketing',
@@ -68,11 +68,11 @@ export const servicesData = [
     //     title: 'Audio Transcription',
     //     icon: <AiFillAudio />
     // },
-    {
-        id: 13,
-        title: 'Blog Posting',
-        icon: <FaRegNewspaper />
-    },
+    // {
+    //     id: 13,
+    //     title: 'Blog Posting',
+    //     icon: <FaRegNewspaper />
+    // },
 
 ]
 

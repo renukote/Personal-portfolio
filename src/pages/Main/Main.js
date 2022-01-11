@@ -13,7 +13,7 @@ import {
   // Experience,
   Contacts,
   Projects,
-  Services,
+  // Services,
   // Achievement,
 } from "../../components";
 import { headerData } from "../../data/headerData";
@@ -29,7 +29,7 @@ function Main() {
       <Landing />
       <About />
       <Skills />
-      <Services />
+      {/* <Services /> */}
       <Education />
       <Projects />
       <Blog />

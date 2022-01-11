@@ -133,7 +133,10 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar--container">
-        <h1 style={{ color: theme.tertiary }}>{shortname(headerData.name)}</h1>
+        <h1 style={{ color: theme.tertiary }}>
+          {" "}
+          {`< ${shortname(headerData.name)} />`}
+        </h1>
 
         <IoMenuSharp
           className={classes.navMenu}
@@ -197,11 +200,11 @@ function Navbar() {
               <NavLink to="/#resume" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
                   <HiDocumentText className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Resume</span>
+                  <span className={classes.drawerLinks}>Education</span>
                 </div>
               </NavLink>
             </Fade>
-
+            {/* 
             <Fade left>
               <NavLink to="/#services" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
@@ -209,7 +212,7 @@ function Navbar() {
                   <span className={classes.drawerLinks}>Services</span>
                 </div>
               </NavLink>
-            </Fade>
+            </Fade> */}
 
             <Fade left>
               <NavLink to="/#blog" smooth={true} spy="true" duration={2000}>

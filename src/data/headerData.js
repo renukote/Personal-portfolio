@@ -5,7 +5,7 @@ export const headerData = {
   name: "Renuka Prasad",
   title: "Web Developer",
   desciption:
-    "feet on the ground, eyes at the sky, never stop dreaming, never till you die, spread your wings, and fly high",
+    "feet on the ground, eyes at the sky, never stop dreaming, never till you die.",
   image: profileImg,
   resumePdf: resume,
 };

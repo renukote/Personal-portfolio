@@ -12,9 +12,9 @@ export const projectsData = [
   {
     id: 1,
     projectName: "Udemy Clone",
-    projectDesc: "This project aims to render a visual clone of www.udemy.com",
-    tags: ["Advanced JS", "Tailwind CSS"],
-    code: "https://github.com/Sachi4496/udemy-clone",
+    projectDesc: "A pixel to pixel visual replica of www.udemy.com with debouncing minimize network requests",
+    tags: ["Advanced JS", "Tailwind CSS", "API Fetch", "Mock Server"],
+    code: "https://github.com/Renukote/udemy-clone-1",
     demo: "https://aqueous-fortress-78543.herokuapp.com/",
     image:
       "https://user-images.githubusercontent.com/91539305/147107410-e2cf1961-f777-4e33-8a49-586a9a612cb5.gif",
@@ -22,7 +22,7 @@ export const projectsData = [
   {
     id: 2,
     projectName: "Udemy Backend Clone",
-    projectDesc: "A full stack project mimicing the user/product flow of Udemy",
+    projectDesc: "All round Backend integrated clone mimicing the user flow and behavior of Udemy.com",
     tags: ["MongoDB", "Node JS", "Express JS"],
     code: "https://github.com/Sachi4496/Udemy-Clone-Backend",
     demo: "https://aqueous-fortress-78543.herokuapp.com/",
@@ -32,8 +32,8 @@ export const projectsData = [
   {
     id: 2,
     projectName: "R + F Clone",
-    projectDesc: "A two page application clone of Rodanandfields.com ",
-    tags: ["DOM", "HTML", "CSS"],
+    projectDesc: "A two cloned page application of Rodanandfields.com with fully functional cart and product carousel",
+    tags: ["HTML", "DOM", "CSS"],
     code: "https://github.com/Renukote/clone-rodanandfields.com",
     demo: "https://renukote.github.io/clone-rodanandfields.com/homePage.html",
     image:

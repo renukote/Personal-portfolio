@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Snackbar, IconButton, SnackbarContent } from "@material-ui/core";
 import CloseIcon from "@material-ui/icons/Close";
-import axios from "axios";
+// import axios from "axios";
 import isEmail from "validator/lib/isEmail";
 import { makeStyles } from "@material-ui/core/styles";
 import {
@@ -135,13 +135,24 @@ function Contacts() {
     if (name && email && message) {
       if (isEmail(email)) {
         const responseData = {
-          name: name,
-          email: email,
-          message: message,
+          service_id: "service_5jdn4qw",
+          template_id: "template_3ca0udb",
+          user_id: "user_i32cigCput4Erat2GI4Yy",
+          template_params: {
+            from_name: name,
+            from_email: email,
+            message: message,
+          },
         };
 
-        axios.post(contactsData.sheetAPI, responseData).then((res) => {
-          console.log("success");
+        fetch("https://api.emailjs.com/api/v1.0/email/send", {
+          method: "POST",
+          body: JSON.stringify(responseData),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }).then((res) => {
+          console.log("success", res);
           setSuccess(true);
           setErrMsg("");
 
@@ -167,7 +178,7 @@ function Contacts() {
       style={{ backgroundColor: theme.secondary }}
     >
       <div className="contacts--container">
-        <h1 style={{ color: theme.primary }}>Connect with me</h1>
+        <h1 style={{ color: theme.primary }}>Let's Connect</h1>
         <div className="contacts-body">
           <div className="contacts-form">
             <form onSubmit={handleContactForm}>
@@ -271,12 +282,13 @@ function Contacts() {
             <a
               href={`mailto:${contactsData.email}`}
               className="personal-details"
-              
             >
               <div className={classes.detailsIcon}>
                 <FiAtSign />
               </div>
-              <p style={{ color: theme.tertiary,  width: "fit-content" }}>{contactsData.email}</p>
+              <p style={{ color: theme.tertiary, width: "fit-content" }}>
+                {contactsData.email}
+              </p>
             </a>
             <a href={`tel:${contactsData.phone}`} className="personal-details">
               <div className={classes.detailsIcon}>

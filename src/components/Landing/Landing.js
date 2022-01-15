@@ -138,7 +138,7 @@ function Landing() {
           style={{ backgroundColor: theme.secondary }}
         >
           <div className="lcr--content" style={{ color: theme.tertiary }}>
-            <h1 style={{fontSize: "50px"}}>{headerData.name}</h1>
+            <h1 style={{ fontSize: "50px" }}>{headerData.name}</h1>
             <h6
               style={{
                 color: theme.primary,
@@ -168,7 +168,7 @@ function Landing() {
             <div className="lcr-buttonContainer">
               {headerData.resumePdf && (
                 <a
-                  href={headerData.resumePdf}
+                  href={`/resume.pdf`}
                   download="Renuka_prasad_resume"
                   target="_blank"
                   rel="noreferrer"

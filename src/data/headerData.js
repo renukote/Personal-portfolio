@@ -5,12 +5,10 @@ export const headerData = {
   name: "Renuka Prasad",
   title: "Web Developer",
   desciption:
-    "feet on the ground, eyes at the sky, never stop dreaming, never till you die.",
+    "Feet on the ground, eyes at the sky, never stop dreaming, never till you die.",
   image: profileImg,
   resumePdf: resume,
 };
-
-
 
 // import resume from "../assets/pdf/resume.pdf";
 // import profileImg from "../assets/png/profileImg.png";

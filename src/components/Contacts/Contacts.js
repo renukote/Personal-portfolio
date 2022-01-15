@@ -282,6 +282,8 @@ function Contacts() {
             <a
               href={`mailto:${contactsData.email}`}
               className="personal-details"
+              target="_blank"
+              rel="noreferrer"
             >
               <div className={classes.detailsIcon}>
                 <FiAtSign />
@@ -290,7 +292,12 @@ function Contacts() {
                 {contactsData.email}
               </p>
             </a>
-            <a href={`tel:${contactsData.phone}`} className="personal-details">
+            <a
+              href={`tel:${contactsData.phone}`}
+              className="personal-details"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className={classes.detailsIcon}>
                 <FiPhone />
               </div>

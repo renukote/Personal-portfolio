@@ -131,7 +131,7 @@ function Navbar() {
   };
 
   return (
-    <div className="navbar">
+    <div className="navbar" style={{}}> 
       <div className="navbar--container">
         <h1 style={{ color: theme.tertiary }}>
           {" "}

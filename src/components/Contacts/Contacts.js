@@ -303,12 +303,17 @@ function Contacts() {
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.phone}</p>
             </a>
-            <div className="personal-details">
+            <a
+              className="personal-details"
+              href="https://goo.gl/maps/TetuEbaLxUaFpBuW6"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className={classes.detailsIcon}>
                 <HiOutlineLocationMarker />
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.address}</p>
-            </div>
+            </a>
 
             <div className="socialmedia-icons">
               {socialsData.twitter && (

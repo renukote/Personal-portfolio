@@ -31,6 +31,9 @@ function Navbar() {
 
   const useStyles = makeStyles((t) => ({
     navMenu: {
+      position: "fixed",
+      // top: 0,
+      right: "4%",
       fontSize: "2.5rem",
       color: theme.tertiary,
       cursor: "pointer",
@@ -131,7 +134,7 @@ function Navbar() {
   };
 
   return (
-    <div className="navbar" style={{}}> 
+    <div className="navbar" style={{}}>
       <div className="navbar--container">
         <h1 style={{ color: theme.tertiary }}>
           {" "}

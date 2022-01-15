@@ -20,7 +20,7 @@ export const projectsData = [
         "Major bug fixes",
       ],
     ],
-    tags: ["Advanced JS", "Tailwind", "HTML"],
+    tags: ["JavaScript", "Tailwind", "HTML"],
     code: "https://github.com/Renukote/udemy-clone-1",
     demo: "https://aqueous-fortress-78543.herokuapp.com/",
     image:
@@ -33,7 +33,7 @@ export const projectsData = [
       "All round Backend integrated clone mimicing the user flow and behavior of Udemy.com",
       ["Configured server and APIs", "Laid out data schema", "Major Bug fixes"],
     ],
-    tags: ["MongoDB", "Node", "Express"],
+    tags: ["MongoDB", "Node JS", "Express"],
     code: "https://github.com/Sachi4496/Udemy-Clone-Backend",
     demo: "https://aqueous-fortress-78543.herokuapp.com/",
     image:
@@ -50,7 +50,7 @@ export const projectsData = [
         "Added functionality to cart",
       ],
     ],
-    tags: ["HTML", "Advanced JS", "CSS"],
+    tags: ["HTML", "JavaScript", "CSS"],
     code: "https://github.com/Renukote/clone-rodanandfields.com",
     demo: "https://renukote.github.io/clone-rodanandfields.com/homePage.html",
     image:

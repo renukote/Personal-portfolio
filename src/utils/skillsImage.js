@@ -101,7 +101,7 @@ export const skillsImage = (skill) => {
       return css;
     case "angular":
       return angular;
-    case "advanced js":
+    case "javascript":
       return javascript;
     case "next js":
       return nextJS;
@@ -231,7 +231,7 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case "canva":
       return canva;
-    case "node":
+    case "node js":
       return node;
     case "redux":
       return redux;

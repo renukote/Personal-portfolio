@@ -1,9 +1,10 @@
 .navbar {
     height: 6.5rem;
-    position: fixed;
+    position: absolute;
     top:0;
     right:0;
-    background-image: linear-gradient(to right, #f03939 35%, #212121 35%, #212121 30%);
+    /* background-image: linear-gradient(to right, #f03939 35%, #212121 35%, #212121 30%); */
+    background-color: transparent;
     z-index: 99;
     display: flex;
     align-items: center;
@@ -70,9 +71,9 @@
     .MuiDrawer-paper{
       border-radius: 0 !important;
     }
-    .navbar {
+    /* .navbar {
         background-image: linear-gradient(to right, #f03939 35%, #f03939  35%, #f03939  30%);
-    }
+    } */
 }
 
 

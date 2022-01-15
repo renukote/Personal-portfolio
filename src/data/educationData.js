@@ -8,9 +8,10 @@ export const educationData = [
   },
   {
     id: 2,
-    institution: "Sri Sai Baba National",
+    institution: "Sri Sai Baba National Degree College",
     course: "Bachelor of Business Administration",
     startYear: "2018",
     endYear: "2021",
   },
 ];
+ 

@@ -55,6 +55,7 @@
     .navLink--container {
         margin-top: 3rem;
     }
+    
 }
 
 
@@ -71,9 +72,12 @@
     .MuiDrawer-paper{
       border-radius: 0 !important;
     }
-    /* .navbar {
+    .navbar {
+        position: fixed;
+        top:0;
+        right:0;
         background-image: linear-gradient(to right, #f03939 35%, #f03939  35%, #f03939  30%);
-    } */
+    }
 }
 
 

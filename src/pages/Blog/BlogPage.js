@@ -1,5 +1,4 @@
 import React, { useContext, useState } from 'react'
-import { Helmet } from 'react-helmet'
 import { Grid } from '@material-ui/core'
 import { Link } from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles';
@@ -9,7 +8,7 @@ import './BlogPage.css'
 import { SingleBlog } from '../../components'
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { blogData } from '../../data/blogData'
-import { headerData } from '../../data/headerData'
+// import { headerData } from '../../data/headerData'
 
 function BlogPage() {
 
@@ -70,9 +69,6 @@ function BlogPage() {
 
     return (
         <div className="blogPage" style={{backgroundColor: theme.secondary}}>
-            <Helmet>
-                <title>{headerData.name} | Blog</title>
-            </Helmet>
             <div className="blogPage--header" style={{backgroundColor: theme.primary}}>
                 <Link to="/">
                     <AiOutlineHome className={classes.home}/>

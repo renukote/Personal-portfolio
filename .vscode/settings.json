@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "notebook.formatOnSave.enabled": true,
+  "cSpell.autoFormatConfigFile": true,
+  "files.autoSaveWhenNoErrors": true
+}

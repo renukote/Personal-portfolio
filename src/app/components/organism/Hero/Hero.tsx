@@ -64,7 +64,7 @@ export function Hero() {
             <p className="text-base text-gray-300 md:text-xl">{headerData.description}</p>
 
             <div className="my-4 flex w-full justify-center gap-6 md:justify-start lg:gap-16">
-              <Link href="/pdf/resume.pdf" download="Renuka Prasad Resume.pdf" target="_blank" rel="noreferrer">
+              <Link href="/pdf/RenukaPrasadResume.pdf" download="Renuka Prasad Resume.pdf" target="_blank" rel="noreferrer">
                 <Button additionalClassNames="mb-4 md:mb-0" variant="primary">
                   My Resume
                 </Button>

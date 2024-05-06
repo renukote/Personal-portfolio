@@ -10,7 +10,7 @@ export function Education() {
     <div className="min-h-[500px] w-full bg-secondary" id="resume">
       <div className="flex w-full flex-col place-items-center text-[hsa(117_56%_49%_0.702)] md:p-8 md:px-24 lg:flex-row xl:px-32">
         <div className="flex w-full flex-[0.65] flex-col items-start justify-start p-4 md:items-start">
-          <h1 className="mb-8 text-3xl font-bold text-white md:text-6xl">Education</h1>
+          <h2 className="mb-8 text-3xl font-bold text-white md:text-6xl">Education</h2>
           {educationData.map((edu) => (
             <EducationCard
               key={edu.id}

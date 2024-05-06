@@ -11,7 +11,7 @@ export function Projects() {
           <Fade>
             <div className="mx-auto w-fit overflow-x-hidden md:p-8" id="projects">
               <div className="m-4 flex w-full place-items-center">
-                <h1 className="mx-auto mb-10 w-fit text-3xl font-bold text-white md:text-6xl">Projects</h1>
+                <h2 className="mx-auto mb-10 w-fit text-3xl font-bold text-white md:text-6xl">Projects</h2>
               </div>
               <div className="flex w-full flex-col place-items-center">
                 <div className="flex w-full flex-col flex-wrap gap-9 lg:flex-row lg:gap-4 xl:gap-12">

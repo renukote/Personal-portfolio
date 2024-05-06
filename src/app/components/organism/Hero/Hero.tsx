@@ -34,13 +34,14 @@ export function Hero() {
         className="absolute left-1/2 top-1/3 h-40 w-40 -translate-x-1/2 -translate-y-1/2 transform rounded-full
 		 border-8 border-primary border-opacity-70 bg-secondary object-cover shadow-lg shadow-purple-500 transition-all duration-300 hover:scale-110
 		 sm:left-1/3 sm:top-1/2 sm:h-56 sm:w-56 md:left-1/3 md:top-1/2 md:h-72 md:w-72 lg:h-96 lg:w-96"
+        priority
       />
 
       <div className="flex h-full w-full flex-1 flex-col justify-center bg-secondary px-4 lg:px-16">
         <div className="flex w-full flex-col items-center justify-center sm:items-end md:items-end xl:items-center">
           <div className="flex flex-col gap-4">
             <h1 className="ml-1 text-base font-medium md:text-2xl">{headerData.eyebrow}</h1>
-            <h2 className="text-3xl font-semibold md:text-5xl lg:text-6xl">{headerData.name}</h2>
+            <h1 className="text-3xl font-semibold md:text-5xl lg:text-6xl">{headerData.name}</h1>
             <p className="text-lg text-primary md:text-2xl lg:text-3xl">
               I am a
               <span className="ml-2">

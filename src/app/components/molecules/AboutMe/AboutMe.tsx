@@ -16,11 +16,11 @@ export function AboutMe() {
         <div className="h-1 w-1 flex-grow rounded-lg bg-primary md:h-2.5 md:w-full"></div>
       </div>
 
-      <div className="flex h-fit w-full flex-col-reverse items-center justify-between gap-20 md:px-24 pt-32 lg:flex-row xl:px-32">
+      <div className="flex h-fit w-full flex-col-reverse items-center justify-between gap-20 pt-32 md:px-24 lg:flex-row xl:px-32">
         <div className="flex h-fit w-full basis-2/3 flex-col items-start justify-evenly">
-          <h3 className="mx-auto my-10 text-3xl font-semibold text-white sm:mx-0 md:text-5xl lg:text-6xl">
+          <h2 className="mx-auto my-10 text-3xl font-semibold text-white sm:mx-0 md:text-5xl lg:text-6xl">
             {aboutData.title}
-          </h3>
+          </h2>
           <p className="text-sm text-tertiary80 md:text-xl">
             {aboutData.description1}
             <br />

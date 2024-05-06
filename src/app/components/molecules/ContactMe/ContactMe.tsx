@@ -47,7 +47,7 @@ export function ContactMe() {
   return (
     <div className="relative flex min-h-full items-start justify-start bg-secondary py-20" id="contacts">
       <div className="h-full w-full flex-col items-start justify-start px-4 py-8 md:px-24 xl:px-32">
-        <h1 className="mb-10 w-fit text-3xl font-bold text-white md:text-6xl">Write to me</h1>
+        <h4 className="mb-10 w-fit text-3xl font-bold text-white md:text-6xl">Write to me</h4>
         <div className="flex w-full flex-col justify-stretch md:gap-32 lg:flex-row">
           <div className="flex w-full min-w-[350px]">
             <form onSubmit={handleContactForm} className="mt-5 w-full flex-col items-start justify-evenly">

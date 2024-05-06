@@ -24,9 +24,9 @@ export function ProjectCard({ id, name, description, tags, code, demo, image }: 
 	   rounded-xl bg-primary400 px-4 py-6 md:flex-row xl:w-[350px]"
     >
       <div className="flex h-full w-full flex-col justify-between">
-        <h2 id={name.replace(" ", "-").toLowerCase()} className="text-center text-xl font-semibold text-tertiary">
+        <h3 id={name.replace(" ", "-").toLowerCase()} className="text-center text-xl font-semibold text-tertiary">
           {name}
-        </h2>
+        </h3>
         <Image
           src={image ? image : "/png/placeholder.png"}
           alt={name}

@@ -23,11 +23,11 @@ export function EducationCard({ id, institution, course, startYear, endYear }: E
           </div>
 
           <div className="ml-2 md:ml-8">
-            <h6 className="mb-2 text-sm font-bold">
+            <b className="mb-2 text-sm font-bold">
               {startYear}-{endYear}
-            </h6>
-            <h4 className="text-base font-semibold text-tertiary md:text-xl">{course}</h4>
-            <h5 className="color-tertiary80 text-sm font-semibold md:text-lg">{institution}</h5>
+            </b>
+            <p className="text-base font-semibold text-tertiary md:text-xl">{course}</p>
+            <p className="color-tertiary80 text-sm font-semibold md:text-lg">{institution}</p>
           </div>
         </div>
       </div>

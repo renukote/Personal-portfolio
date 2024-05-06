@@ -32,8 +32,8 @@ export function BlogCard({ title, description, date, image, url, id }: BlogCardP
 
       <div className="p-4">
         <p className="font-xs mb-3 font-semibold text-tertiary">{date}</p>
-        <h3 className="mb-2 text-xl font-semibold text-white">{title}</h3>
-        <h6 className="text-base font-medium text-white opacity-90">{description}</h6>
+        <p className="mb-2 text-xl font-semibold text-white">{title}</p>
+        <p className="text-base font-medium text-white opacity-90">{description}</p>
       </div>
     </Link>
   );

@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export function Skills() {
   return (
-    <div className="flex min-h-fit flex-col items-center justify-start bg-secondary md:px-24 xl:px-32 py-20">
+    <div className="flex min-h-fit flex-col items-center justify-start bg-secondary py-20 md:px-24 xl:px-32">
       <div className="flex items-center justify-center">
-        <h4 className="text-center text-3xl font-bold text-white md:text-6xl">Skills</h4>
+        <h2 className="text-center text-3xl font-bold text-white md:text-6xl">Skills</h2>
       </div>
       <div className="mt-12 flex w-full items-center justify-center px-4">
         <div className="w-full">
@@ -26,7 +26,7 @@ export function Skills() {
                 key={id}
               >
                 <Image src={skillsImage(skill)} alt={skill} className="pointer-events-none h-8 w-8 md:h-12 md:w-12" />
-                <h5 className="font-2xl mt-4 text-center font-medium text-tertiary">{skill}</h5>
+                <p className="font-2xl mt-4 text-center font-medium text-tertiary">{skill}</p>
               </div>
             ))}
           </Marquee>

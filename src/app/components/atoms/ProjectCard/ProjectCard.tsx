@@ -30,7 +30,7 @@ export function ProjectCard({ id, name, description, tags, code, demo, image }: 
         <Image
           src={image ? image : "/png/placeholder.png"}
           alt={name}
-          className="h-3/5 w-full rounded-xl transition-all duration-500 group-hover:opacity-0"
+          className="aspect-auto h-3/5 w-full rounded-xl transition-all duration-500 group-hover:opacity-0"
           width={100}
           height={100}
         />
@@ -80,7 +80,7 @@ export function ProjectCard({ id, name, description, tags, code, demo, image }: 
 			bg-secondary p-3 text-sm text-tertiary80 duration-500 group-hover:translate-x-0"
           >
             {tags.map((tag, id) => (
-              <Image src={skillsImage(tag)} alt={tag} width={30} height={30} key={id} className="h-8" />
+              <Image src={skillsImage(tag)} alt={tag} width={30} height={30} key={id} className="aspect-square h-8" />
             ))}
           </div>
         </div>

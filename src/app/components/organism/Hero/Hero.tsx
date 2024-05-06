@@ -42,7 +42,7 @@ export function Hero() {
           <div className="flex flex-col gap-4">
             <h1 className="ml-1 text-base font-medium md:text-2xl">{headerData.eyebrow}</h1>
             <h1 className="text-3xl font-semibold md:text-5xl lg:text-6xl">{headerData.name}</h1>
-            <p className="text-lg text-primary md:text-2xl lg:text-3xl">
+            <p className="text-lg text-purple-300 md:text-2xl lg:text-3xl">
               I am a
               <span className="ml-2">
                 <Typewriter

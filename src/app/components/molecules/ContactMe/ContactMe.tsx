@@ -54,7 +54,7 @@ export function ContactMe() {
               <div className="group w-full">
                 <label
                   htmlFor="Name"
-                  className="inline-flex translate-x-6 translate-y-1/2 transform bg-secondary px-2 text-sm font-semibold text-primary group-focus:text-white"
+                  className="inline-flex translate-x-6 translate-y-1/2 transform bg-secondary px-2 text-sm font-semibold text-white group-focus:text-white"
                 >
                   Name
                 </label>
@@ -72,7 +72,7 @@ export function ContactMe() {
               <div className="w-full">
                 <label
                   htmlFor="Email"
-                  className="inline-flex translate-x-6 translate-y-1/2 transform bg-secondary px-2 text-sm font-semibold text-primary"
+                  className="inline-flex translate-x-6 translate-y-1/2 transform bg-secondary px-2 text-sm font-semibold text-white"
                 >
                   Email
                 </label>
@@ -90,7 +90,7 @@ export function ContactMe() {
               <div className="w-full">
                 <label
                   htmlFor="Message"
-                  className="inline-flex translate-x-6 translate-y-1/2 transform bg-secondary px-2 text-sm font-semibold text-primary"
+                  className="inline-flex translate-x-6 translate-y-1/2 transform bg-secondary px-2 text-sm font-semibold text-white"
                 >
                   Message
                 </label>
@@ -107,8 +107,8 @@ export function ContactMe() {
               <div className="submit-btn">
                 <button
                   type="submit"
-                  className="flex h-12 w-32 items-center justify-evenly rounded-full border-none bg-primary font-medium text-secondary
-				   outline-none transition-all duration-700 hover:scale-110 hover:bg-primary hover:text-secondary"
+                  className="flex h-12 w-32 items-center justify-evenly rounded-full border-none bg-primary font-medium text-white
+				   outline-none transition-all duration-700 hover:scale-110 hover:bg-primary"
                 >
                   <p className="text-base font-semibold">{!success ? "Send" : "Sent"}</p>
                   <div className="flex items-center justify-center overflow-hidden">

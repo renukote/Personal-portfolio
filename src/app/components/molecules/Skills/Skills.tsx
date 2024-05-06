@@ -25,7 +25,11 @@ export function Skills() {
                 className="m-6 flex h-[120px] w-[120px] transform flex-col place-items-center rounded-xl bg-secondary px-4 py-8 shadow-[0px_0px_30px_#823ae04d] transition duration-300 ease-in-out hover:scale-125 md:h-[160px] md:w-[160px]"
                 key={id}
               >
-                <Image src={skillsImage(skill)} alt={skill} className="pointer-events-none h-8 w-8 md:h-12 md:w-12" />
+                <Image
+                  src={skillsImage(skill)}
+                  alt={skill}
+                  className="pointer-events-none aspect-video h-8 w-8 md:h-12 md:w-12"
+                />
                 <p className="font-2xl mt-4 text-center font-medium text-tertiary">{skill}</p>
               </div>
             ))}

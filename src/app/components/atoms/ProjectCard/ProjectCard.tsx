@@ -33,6 +33,8 @@ export function ProjectCard({ id, name, description, tags, code, demo, image }: 
           className="aspect-auto h-3/5 w-full rounded-xl transition-all duration-500 group-hover:opacity-0"
           width={100}
           height={100}
+          quality={100}
+          unoptimized
         />
         <div className="group flex w-full items-center justify-between">
           <Link

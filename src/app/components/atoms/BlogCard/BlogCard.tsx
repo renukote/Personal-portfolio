@@ -14,7 +14,7 @@ interface BlogCardProps {
 export function BlogCard({ title, description, date, image, url, id }: BlogCardProps) {
   return (
     <Link
-      className="w-[320px] h-[400px] min-h-fit rounded-md bg-primary400 xl:w-[350px]"
+      className="h-[400px] min-h-fit w-[320px] rounded-md bg-primary400 xl:w-[350px]"
       key={id}
       href={url}
       target="_blank"
@@ -27,6 +27,7 @@ export function BlogCard({ title, description, date, image, url, id }: BlogCardP
           width={200}
           height={200}
           className="h-full w-full scale-125 rounded-t-md object-cover blur-[2px] transition-all duration-200 hover:scale-100 hover:blur-none"
+          unoptimized
         />
       </div>
 
